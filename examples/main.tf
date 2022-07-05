@@ -1,5 +1,5 @@
 module "vpc" {
-  source                = "../../terraform-gcp-vpc"
+  source                = "github.com/Donutson/terraform-gcp-vpc"
   subnet_name           = var.subnet_name
   project_name          = var.project_name
   network_name          = var.network_name
